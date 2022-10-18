@@ -7,36 +7,42 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-3">
-            <MainCards
+            <Maincards
               :Color="yazan"
-              :AllTimeFollwers="3000"
-              :NumberOfFollwersPerDay="3000"
-              img="uu"
-            ></MainCards>
+              :AllTimeFollwer="3010"
+              :NumberOfFollwersPerDay="3100"
+              :fathi="'Followers'"
+              :val="'fa-brands fa-square-facebook fa-2xl'"
+            ></Maincards>
           </div>
           <div class="col-sm-3">
-            <MainCards
-              :Color="yazan"
-              :AllTimeFollwers="3000"
+            <Maincards
+              :Color=yazan
+              :AllTimeFollwer="3000"
               :NumberOfFollwersPerDay="3000"
-              img="uu"
-            ></MainCards>
+              :fathi="'Followers'"
+              :val="'fa-brands fa-square-instagram fa-2xl'"
+            ></Maincards>
           </div>
           <div class="col-sm-3">
-            <MainCards
+            <Maincards
+            :Type="Foo"
               :Color="yazan"
-              :AllTimeFollwers="3000"
+              :AllTimeFollwer="3000"
               :NumberOfFollwersPerDay="3000"
-              img="uu"
-            ></MainCards>
+              :fathi="'Followers'"
+              :val="'fa-brands fa-square-twitter fa-2xl'"
+            ></Maincards>
           </div>
           <div class="col-sm-3">
-            <MainCards
+            <Maincards
+              :Type="Foo"
               :Color="yazan"
-              :AllTimeFollwers="3000"
+              :AllTimeFollwer="3000"
               :NumberOfFollwersPerDay="3000"
-              img="uu"
-            ></MainCards>
+              :fathi="'Subscriber'"
+              :val="'fa-brands fa-square-youtube fa-2xl'"
+            ></Maincards>
           </div>
         </div>
       </div>
@@ -71,6 +77,7 @@
               :NumbersOfGrowth="34"
             ></OverviewCards>
           </div>
+
           <div class="col-sm-3">
             <OverviewCards
               :PageName="Likes"
@@ -79,6 +86,7 @@
               :NumbersOfGrowth="34"
             ></OverviewCards>
           </div>
+
           <div class="col-sm-3">
             <OverviewCards
               :PageName="Likes"
@@ -134,7 +142,7 @@
 
 <script>
 import Header from "./Components/Header.vue";
-import MainCards from "./Components/Cards.vue";
+import Maincards from "./Components/Maincards.vue";
 import OverviewCards from "./Components/OverviewCards.vue";
 import OverViewHeader from "./Components/OverViewHeader.vue";
 
@@ -145,9 +153,10 @@ export default {
       mode: "light",
     };
   },
+
   components: {
     Header,
-    MainCards,
+    Maincards,
     OverviewCards,
     OverViewHeader,
   },

@@ -15,6 +15,26 @@
     background-color: #2C324B;
 }
 
+.card1::after{
+    content: '';
+    position: absolute;
+    width:100%;
+    height: 10px;
+    left:0;
+    bottom: 0;
+    top: 0.2%;
+    right:0;
+    background: green;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.card1::after{
+    transform: scale(0,1);
+    transition: transform 0.8s ease;
+}
+.card1:hover::after{
+    transform: scale(1,1);
+}
 
 /* ------------------------ Card Components ------------------------*/
 
@@ -52,6 +72,11 @@
 
 .NumOfFollwers{
     font-size: 70px;
+}
+
+a{
+    text-decoration: none; 
+    color: white;
 }
 
 
