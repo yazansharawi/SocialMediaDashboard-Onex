@@ -3,7 +3,7 @@
     <div class="head">
       <Header :mode="mode" @toggle="toggle"></Header>
     </div>
-    <div class="cards">
+    <div class="MainCards">
       <div class="container">
         <div class="row">
           <div class="col-sm-3">
@@ -41,42 +41,51 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <OverViewHeader></OverViewHeader>
+
+    <div class="OverViewHead">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <OverViewHeader></OverViewHeader>
+          </div>
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3">
-          <Overview1></Overview1>
-        </div>
-        <div class="col-sm-3">
-          <Overview1></Overview1>
-        </div>
-        <div class="col-sm-3">
-          <Overview1></Overview1>
-        </div>
-        <div class="col-sm-3">
-          <Overview1></Overview1>
+
+    <div class="OverViewCards1">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <OverviewCards></OverviewCards>
+          </div>
+          <div class="col-sm-3">
+            <OverviewCards></OverviewCards>
+          </div>
+          <div class="col-sm-3">
+            <OverviewCards></OverviewCards>
+          </div>
+          <div class="col-sm-3">
+            <OverviewCards></OverviewCards>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3">
-          <Overview1></Overview1>
-        </div>
-        <div class="col-sm-3">
-          <Overview1></Overview1>
-        </div>
-        <div class="col-sm-3">
-          <Overview1></Overview1>
-        </div>
-        <div class="col-sm-3">
-          <Overview1></Overview1>
+
+      <div class="OverViewCards2">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              <OverviewCards></OverviewCards>
+            </div>
+            <div class="col-sm-3">
+              <OverviewCards></OverviewCards>
+            </div>
+            <div class="col-sm-3">
+              <OverviewCards></OverviewCards>
+            </div>
+            <div class="col-sm-3">
+              <OverviewCards></OverviewCards>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -86,7 +95,7 @@
 <script>
 import Header from "./Components/Header.vue";
 import Cards from "./Components/Cards.vue";
-import Overview1 from "./Components/Overview1.vue";
+import OverviewCards from "./Components/OverviewCards.vue";
 import OverViewHeader from "./Components/OverViewHeader.vue";
 
 export default {
@@ -99,7 +108,7 @@ export default {
   components: {
     Header,
     Cards,
-    Overview1,
+    OverviewCards,
     OverViewHeader,
   },
   methods: {

@@ -8,6 +8,7 @@
     background-color: #21263A;
     cursor: pointer;
     color: white;
+    border-radius: 15px;
 }
 
 .card1:hover{
@@ -17,22 +18,22 @@
 
 /* ------------------------ Card Components ------------------------*/
 
-.CardUpperColor{
-    left: 0;
+.CardUpperColor::after{
+    --padding:1.5em;
     content: "";
     position: absolute;
     height: 7px;
-    width: 100%;
-    background-color: yellow;
+    left: calc(var(--padding) * -1);
+    bottom:  0;
+    width:calc(100% + var(--padding));
+    background: var(--clr-accent-400);
+    transform: scaleX(0);
+    transition: transform 500ms ease;
 }
 
-.CardUpperColor:hover{
-    left: 0;
-    content: "";
-    position: absolute;
-    height: 3px;
-    width: 100%;
-    background-color: blue;
+
+.card1:hover .CardUpperColor::after{
+    transform: scaleY(1);
 }
 
 .Name{

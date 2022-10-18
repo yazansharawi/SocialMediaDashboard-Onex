@@ -27,8 +27,20 @@
 
   /*------------------ cards ------------------*/
   .row{
-    padding-top: 40px;
     display: flex;
+  }
+
+  .MainCards{
+    padding-top: 50px;
+    padding-bottom: 70px;
+  }
+
+  .OverViewHead{
+    padding-bottom: 20px;
+  }
+
+  .OverViewCards2{
+    padding-top: 30px;
   }
 
   
