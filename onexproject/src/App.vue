@@ -9,8 +9,8 @@
           <div class="col-sm-3">
             <Maincards
               :Color= "'green'"
-              :AllTimeFollwer="3010"
-              :NumberOfFollwersPerDay="3100"
+              :AllTimeFollwer="'1987'"
+              :NumberOfFollwersPerDay="12"
               :fathi="'Followers'"
               :val="'fa-brands fa-square-facebook fa-2xl'"
             ></Maincards>
@@ -18,8 +18,8 @@
           <div class="col-sm-3">
             <Maincards
               :Color=yazan
-              :AllTimeFollwer="3000"
-              :NumberOfFollwersPerDay="3000"
+              :AllTimeFollwer="'1044'"
+              :NumberOfFollwersPerDay="99"
               :fathi="'Followers'"
               :val="'fa-brands fa-square-instagram fa-2xl'"
             ></Maincards>
@@ -28,8 +28,8 @@
             <Maincards
             :Type="Foo"
               :Color="yazan"
-              :AllTimeFollwer="3000"
-              :NumberOfFollwersPerDay="3000"
+              :AllTimeFollwer="'11K'"
+              :NumberOfFollwersPerDay="1099"
               :fathi="'Followers'"
               :val="'fa-brands fa-square-twitter fa-2xl'"
             ></Maincards>
@@ -38,8 +38,8 @@
             <Maincards
               :Type="Foo"
               :Color="yazan"
-              :AllTimeFollwer="3000"
-              :NumberOfFollwersPerDay="3000"
+              :AllTimeFollwer="'8239'"
+              :NumberOfFollwersPerDay="144"
               :fathi="'Subscriber'"
               :val="'fa-brands fa-square-youtube fa-2xl'"
             ></Maincards>
@@ -117,7 +117,7 @@
               :Growth="'553'"
               ></OverviewCards>
             </div>
-            
+
             <div class="col-sm-3">
               <OverviewCards
               :Name="'Likes'"

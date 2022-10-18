@@ -9,15 +9,20 @@ header{
   background: #F3F4FC;
   padding-top: 20px;
 }
-
-
 /* ------------------------ Head Page ------------------------*/
 .HeadPage{
   padding-bottom: 10px;
 
 }
+.HeadPage h3{
+  font-family: Inter;
+  font-size: 40px;
+}
 
-
+.HeadPage h5{
+  font-size: 25px;
+  color:#555A75;
+}
 /* ------------------------ Button ------------------------*/
 .switch {
   position: relative;

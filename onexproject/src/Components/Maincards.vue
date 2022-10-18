@@ -6,20 +6,18 @@
           <div class="col-sm-12">
             <div class="Name">
               <div class="UserName">
-                <a
-                  href="https://www.instagram.com/yazan_sharawi_/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  ><i :class = "val"></i
-                  >yazan_sharawi_</a>
+                <div> <i :class = "val"></i></div>
+                <div><a href="https://www.instagram.com/yazan_sharawi_/">Yazan Sharawi</a></div>
               </div>
             </div>
+
             <div class="AllTimeFollwers">
-              <p class="NumOfFollwers">{{ AllTimeFollwer }}K</p>
-              <p>{{ fathi }}</p>
+              <p class="NumOfFollwers">{{ AllTimeFollwer }}</p>
+              <p class = "FollowersMain">{{ fathi }}</p>
             </div>
+            
             <div class="FollwersPerDay">
-              <p>^ {{ NumberOfFollwersPerDay }} Today</p>
+              <p class = "GrowthMain" style="color:hsl(163, 72%, 41%)">^ {{ NumberOfFollwersPerDay }} Today</p>
             </div>
           </div>
         </div>

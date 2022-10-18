@@ -1,8 +1,7 @@
 /* ------------------------ Card ------------------------*/
 
-
-
 .card1{
+    text-align: center;
     position: relative;
     width: 100%;
     height: auto;
@@ -64,22 +63,40 @@
     display: inline-block;
 }
 
-.UserName{
-    display: inline-block;
-}
 
 .AllTimeFollwers{
     padding-top:15px ;
 }
 
+.UserName{
+    display: flex;
+    justify-content: space-between;
+}
+
+.UserName a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
 
 .NumOfFollwers{
     font-size: 70px;
 }
 
+.FollowersMain{
+    letter-spacing: .2rem;
+    font-size: 30px;
+    color:#555A75;
+}
+
 a{
     text-decoration: none; 
     color: white;
+}
+
+.GrowthMain{
+    font-size: 20px;
 }
 
 
