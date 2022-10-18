@@ -18,15 +18,43 @@
 
 
 /* ------------------------ Card Components ------------------------*/
+
+/* ------------------------ CardOverViewBody1 ------------------------*/
+
 .CardOverViewBody1{
     padding-top: 20px;
     height: auto;
     width: 100%;
     font-size: 40;
 }
+.CardOverViewBody1 p{
+    text-align: left;
+}
+.CardOverViewBody1 i{
+    padding-top: 5px;
+}
+
+/* ------------------------ CardOverViewBody2 ------------------------*/
 
 .CardOverViewBody2{
+    padding-top: 30px;
     height: auto;
     width: 100%;
     font-size: 40;
 }
+.CardOverViewBody2 p{
+    text-align: center;
+}
+.CardOverViewBody2 h5{
+    padding-top: 5px;
+    padding-right: 12px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
