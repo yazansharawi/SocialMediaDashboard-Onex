@@ -3,8 +3,8 @@
 
 .cardOverView{
     position: relative;
-    height: 150px;
-    width: 100%px;
+    height: auto;
+    width: 100%;
     max-height: 700px;
     background-color: #21263A;
     cursor: pointer;
@@ -19,38 +19,43 @@
 
 /* ------------------------ Card Components ------------------------*/
 
-/* ------------------------ CardOverViewBody1 ------------------------*/
+/* ------------------------ CardOverViewBody ------------------------*/
 
-.CardOverViewBody1{
+.CardOverViewBody{
     padding-top: 20px;
     height: auto;
     width: 100%;
     font-size: 40;
-}
-.CardOverViewBody1 p{
-    text-align: left;
-}
-.CardOverViewBody1 i{
-    padding-top: 5px;
+    display: inline-block;
 }
 
-/* ------------------------ CardOverViewBody2 ------------------------*/
-
-.CardOverViewBody2{
-    padding-top: 30px;
-    height: auto;
-    width: 100%;
-    font-size: 40;
-}
-.CardOverViewBody2 p{
-    text-align: center;
-}
-.CardOverViewBody2 h5{
-    padding-top: 5px;
-    padding-right: 12px;
+.CardOverViewBody .PageViews{
     text-align: right;
+    padding-bottom: 23px;
+    
 }
 
+.CardOverViewBody .NumberOfViews{
+    text-align: right;
+    
+}
+
+.CardOverViewBody .Icon{
+    padding-bottom: 45px;
+}
+
+.PageViewsFontSize{
+    font-size: 20px;
+}
+
+/* ------------------------ Media queries  ------------------------*/
+
+@media (max-width: 767.98px){ 
+    .cardOverView{
+        margin-top: 15px;
+    }
+
+}
 
 
 

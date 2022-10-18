@@ -1,10 +1,10 @@
 <template>
+  <div class = "CardsMargin">
   <div class="container">
     <div class="row">
       <div class = card1>
         <div class="col-sm-12">
         <div class = "CardUpperColor">
-
         </div>
         <div class = "Name">
           <div class = "UserName">
@@ -22,6 +22,7 @@
     </div>
   </div>
   </div>
+</div>
 </template>
 
 <script>

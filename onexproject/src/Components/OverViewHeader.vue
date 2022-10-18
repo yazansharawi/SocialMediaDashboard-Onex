@@ -21,5 +21,5 @@ export default {
 
 
 <style>
-@import './OverViewHeader.css'
+@import './OverViewHeader.css';
 </style>

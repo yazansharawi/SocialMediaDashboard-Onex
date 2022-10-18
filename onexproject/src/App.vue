@@ -3,40 +3,40 @@
     <div class="head">
       <Header :mode="mode" @toggle="toggle"></Header>
     </div>
-    <div class="MainCards">
+    <div class="mainCards">
       <div class="container">
         <div class="row">
           <div class="col-sm-3">
-            <Cards
+            <MainCards
               :Color="yazan"
               :AllTimeFollwers="3000"
               :NumberOfFollwersPerDay="3000"
               img="uu"
-            ></Cards>
+            ></MainCards>
           </div>
           <div class="col-sm-3">
-            <Cards
+            <MainCards
               :Color="yazan"
               :AllTimeFollwers="3000"
               :NumberOfFollwersPerDay="3000"
               img="uu"
-            ></Cards>
+            ></MainCards>
           </div>
           <div class="col-sm-3">
-            <Cards
+            <MainCards
               :Color="yazan"
               :AllTimeFollwers="3000"
               :NumberOfFollwersPerDay="3000"
               img="uu"
-            ></Cards>
+            ></MainCards>
           </div>
           <div class="col-sm-3">
-            <Cards
+            <MainCards
               :Color="yazan"
               :AllTimeFollwers="3000"
               :NumberOfFollwersPerDay="3000"
               img="uu"
-            ></Cards>
+            ></MainCards>
           </div>
         </div>
       </div>
@@ -56,16 +56,36 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-3">
-            <OverviewCards></OverviewCards>
+            <OverviewCards
+              :PageName="Likes"
+              :color="green"
+              :NumbersOfLikes="33"
+              :NumbersOfGrowth="34"
+            ></OverviewCards>
           </div>
           <div class="col-sm-3">
-            <OverviewCards></OverviewCards>
+            <OverviewCards
+              :PageName="Likes"
+              :color="green"
+              :NumbersOfLikes="33"
+              :NumbersOfGrowth="34"
+            ></OverviewCards>
           </div>
           <div class="col-sm-3">
-            <OverviewCards></OverviewCards>
+            <OverviewCards
+              :PageName="Likes"
+              :color="green"
+              :NumbersOfLikes="33"
+              :NumbersOfGrowth="34"
+            ></OverviewCards>
           </div>
           <div class="col-sm-3">
-            <OverviewCards></OverviewCards>
+            <OverviewCards
+              :PageName="Likes"
+              :color="green"
+              :NumbersOfLikes="33"
+              :NumbersOfGrowth="34"
+            ></OverviewCards>
           </div>
         </div>
       </div>
@@ -74,16 +94,36 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-3">
-              <OverviewCards></OverviewCards>
+              <OverviewCards
+                :PageName="yazan"
+                :color="green"
+                :NumbersOfLikes="33"
+                :NumbersOfGrowth="34"
+              ></OverviewCards>
             </div>
             <div class="col-sm-3">
-              <OverviewCards></OverviewCards>
+              <OverviewCards
+                :PageName="Likes"
+                :color="green"
+                :NumbersOfLikes="33"
+                :NumbersOfGrowth="34"
+              ></OverviewCards>
             </div>
             <div class="col-sm-3">
-              <OverviewCards></OverviewCards>
+              <OverviewCards
+                :PageName="Likes"
+                :color="green"
+                :NumbersOfLikes="33"
+                :NumbersOfGrowth="34"
+              ></OverviewCards>
             </div>
             <div class="col-sm-3">
-              <OverviewCards></OverviewCards>
+              <OverviewCards
+                :PageName="Likes"
+                :color="green"
+                :NumbersOfLikes="33"
+                :NumbersOfGrowth="34"
+              ></OverviewCards>
             </div>
           </div>
         </div>
@@ -94,7 +134,7 @@
 
 <script>
 import Header from "./Components/Header.vue";
-import Cards from "./Components/Cards.vue";
+import MainCards from "./Components/Cards.vue";
 import OverviewCards from "./Components/OverviewCards.vue";
 import OverViewHeader from "./Components/OverViewHeader.vue";
 
@@ -107,7 +147,7 @@ export default {
   },
   components: {
     Header,
-    Cards,
+    MainCards,
     OverviewCards,
     OverViewHeader,
   },

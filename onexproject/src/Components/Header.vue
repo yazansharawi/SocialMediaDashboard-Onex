@@ -26,7 +26,6 @@
 </template>
 
 <script>
-
 import Toggle from "./Toggle.vue";
 export default {
   props: ["mode"],
