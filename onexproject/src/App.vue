@@ -8,7 +8,7 @@
         <div class="row">
           <div class="col-sm-3">
             <Maincards
-              :Color="yazan"
+              :Color= "'green'"
               :AllTimeFollwer="3010"
               :NumberOfFollwersPerDay="3100"
               :fathi="'Followers'"
@@ -63,36 +63,36 @@
         <div class="row">
           <div class="col-sm-3">
             <OverviewCards
-              :PageName="Likes"
-              :color="green"
-              :NumbersOfLikes="33"
-              :NumbersOfGrowth="34"
+            :Name="'Page Views'"
+              :Val="'fa-brands fa-square-facebook fa-2xl'"
+              :Followers="'87'"
+              :Growth="'3'"
             ></OverviewCards>
           </div>
           <div class="col-sm-3">
             <OverviewCards
-              :PageName="Likes"
-              :color="green"
-              :NumbersOfLikes="33"
-              :NumbersOfGrowth="34"
-            ></OverviewCards>
-          </div>
-
-          <div class="col-sm-3">
-            <OverviewCards
-              :PageName="Likes"
-              :color="green"
-              :NumbersOfLikes="33"
-              :NumbersOfGrowth="34"
+            :Name="'Likes'"
+              :Val="'fa-brands fa-square-facebook fa-2xl'"
+              :Followers="'52'"
+              :Growth="'2'"
             ></OverviewCards>
           </div>
 
           <div class="col-sm-3">
             <OverviewCards
-              :PageName="Likes"
-              :color="green"
-              :NumbersOfLikes="33"
-              :NumbersOfGrowth="34"
+            :Name="'Likes'"
+              :Val="'fa-brands fa-square-instagram fa-2xl'"
+              :Followers="'5462'"
+              :Growth="'2257'"
+            ></OverviewCards>
+          </div>
+
+          <div class="col-sm-3">
+            <OverviewCards
+            :Name="'Profile Views'"
+              :Val="'fa-brands fa-square-instagram fa-2xl'"
+              :Followers="'52K'"
+              :Growth="'1375'"
             ></OverviewCards>
           </div>
         </div>
@@ -103,34 +103,36 @@
           <div class="row">
             <div class="col-sm-3">
               <OverviewCards
-                :PageName="yazan"
-                :color="green"
-                :NumbersOfLikes="33"
-                :NumbersOfGrowth="34"
+              :Name="'Retweets'"
+              :Val="'fa-brands fa-square-facebook fa-2xl'"
+              :Followers="'117'"
+              :Growth="'303'"
               ></OverviewCards>
             </div>
             <div class="col-sm-3">
               <OverviewCards
-                :PageName="Likes"
-                :color="green"
-                :NumbersOfLikes="33"
-                :NumbersOfGrowth="34"
+              :Name="'Likes'"
+              :Val="'fa-brands fa-square-facebook fa-2xl'"
+              :Followers="'507'"
+              :Growth="'553'"
               ></OverviewCards>
             </div>
+            
             <div class="col-sm-3">
               <OverviewCards
-                :PageName="Likes"
-                :color="green"
-                :NumbersOfLikes="33"
-                :NumbersOfGrowth="34"
+              :Name="'Likes'"
+              :Val="'fa-brands fa-square-facebook fa-2xl'"
+              :Followers="'107'"
+              :Growth="'19'"
               ></OverviewCards>
             </div>
+
             <div class="col-sm-3">
               <OverviewCards
-                :PageName="Likes"
-                :color="green"
-                :NumbersOfLikes="33"
-                :NumbersOfGrowth="34"
+              :Name="'Total Vies'"
+              :Val="'fa-brands fa-square-facebook fa-2xl'"
+              :Followers="'1407'"
+              :Growth="'12'"
               ></OverviewCards>
             </div>
           </div>
