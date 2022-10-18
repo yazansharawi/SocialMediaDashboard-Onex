@@ -6,22 +6,22 @@
     <div class="cards">
       <div class="container">
         <div class="row">
-          <div class="col">
+          <div class="col-sm-3">
             <Cards :Color="yazan" :AllTimeFollwers="3000" :NumberOfFollwersPerDay="3000" img="uu"></Cards>
           </div>
-          <div  class="col">
-            <Cards :Color="yazan" :AllTimeFollwers="3000" :NumberOfFollwersPerDay="3000" img="uu"></Cards>
-          </div>
-          <div  class="col">
-            <Cards :Color="yazan" :AllTimeFollwers="3000" :NumberOfFollwersPerDay="3000" img="uu"></Cards>
-          </div>
-          <div  class="col">
-            <Cards :Color="yazan" :AllTimeFollwers="3000" :NumberOfFollwersPerDay="3000" img="uu"></Cards>
-          </div>
+          <div class="col-sm-3">
+          <Cards :Color="yazan" :AllTimeFollwers="3000" :NumberOfFollwersPerDay="3000" img="uu"></Cards>
+        </div>
+        <div class="col-sm-3">
+          <Cards :Color="yazan" :AllTimeFollwers="3000" :NumberOfFollwersPerDay="3000" img="uu"></Cards>
+        </div>
+        <div class="col-sm-3">
+          <Cards :Color="yazan" :AllTimeFollwers="3000" :NumberOfFollwersPerDay="3000" img="uu"></Cards>
+        </div>
+        </div>
         </div>
       </div>
     </div>
-  </div>
 </template>
 
 <script>
