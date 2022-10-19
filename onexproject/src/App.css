@@ -1,5 +1,4 @@
 *{
-
     text-align: center;
     padding-top: 0px;
     margin: 0px;
@@ -17,7 +16,7 @@
 .app{
     width:100vw;
     min-height:100vh;
-    background:white;
+    background: linear-gradient(to bottom, #F8F9FE 0%, #F8F9FE 50%, white 80%, white 100%);
     color:black;
   }
   
@@ -26,7 +25,7 @@
     color:white;
   }
 
-  
+
   /*------------------ cards ------------------*/
   .row{
     display: flex;

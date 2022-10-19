@@ -1,12 +1,26 @@
 /* ------------------------ Card ------------------------*/
 
+.dark .card1{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    max-height: 700px;
+    background-color: #262b41;
+    cursor: pointer;
+    border-radius: 15px;
+    overflow: hidden;
+
+}
+
+
 .card1{
     text-align: center;
     position: relative;
     width: 100%;
     height: auto;
     max-height: 700px;
-    background-color: #21263A;
+    background-color: #f1f3f9;
     cursor: pointer;
     color: white;
     border-radius: 15px;
@@ -14,7 +28,11 @@
 }
 
 .card1:hover{
-    background-color: #2C324B;
+    background-color: #dddeea;
+}
+
+.dark .card1:hover{
+    background-color: #343a53;
 }
 
 .card1::after{
@@ -45,7 +63,7 @@
 }
 
 .card1.Instagram::after{
-    background-color: #bc2a8d;
+    background-color: #bc2a8d !important;
 }
 
 
@@ -101,6 +119,12 @@
 
 .NumOfFollwers{
     font-size: 70px;
+    color:black;
+}
+
+.dark .NumOfFollwers{
+    font-size: 70px;
+    color:white;
 }
 
 .FollowersMain{
@@ -112,8 +136,12 @@
 .NamePlusLogo{
     text-decoration: none; 
     color: #8188ac;
+    padding-left: 20px;
+    font-size: 20px;
 }
-
+.UserName img{
+    padding-top: 4px;
+}
 .GrowthMain{
     font-size: 20px;
 }

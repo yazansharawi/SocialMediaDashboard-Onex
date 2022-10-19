@@ -7,7 +7,7 @@
               <p class = "pagename" >{{Name}}</p>
             </div>
             <div>
-              <img :src="require(`../assets/${Src}.svg`)" alt="">
+              <span><img :src="require(`../assets/${Src}.svg`)" alt=""></span>
             </div>
           </div>
           <div class = "FollowersPlusGrowth">

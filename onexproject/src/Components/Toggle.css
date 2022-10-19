@@ -16,7 +16,7 @@
     left: 0;
     right:0;
     bottom:0;
-    background: #15202B;
+    background: green;
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }
@@ -28,7 +28,7 @@
     width: 26px;
     left:4px;
     bottom:4px;
-    background: #fff;
+    background: hsl(230, 22%, 74%);
     -webkit-transition: 0.4s;
     transition: 0.4s;
 }

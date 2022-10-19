@@ -25,7 +25,7 @@
               :AllTimeFollwer="'1044'"
               :NumberOfFollwersPerDay="99"
               :Following="'Followers'"
-              :Srcc= "'icon-facebook'"
+              :Srcc= "'icon-twitter'"
             ></Maincards>
           </div>
           <div class="col-sm-3">

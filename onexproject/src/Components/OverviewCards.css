@@ -6,15 +6,35 @@
     height: auto;
     width: 100%;
     max-height: 700px;
-    background-color: #21263A;
+    background-color: #f1f3f9;
     cursor: pointer;
-    color: white;
+    color: black;
     border-radius: 15px;
 }
 
-.cardOverView:hover{
-    background-color: #2C324B;
+.dark .cardOverView{
+    position: relative;
+    height: auto;
+    width: 100%;
+    max-height: 700px;
+    background-color: #262b41;
+    cursor: pointer;
+    color: black;
+    border-radius: 15px;
 }
+
+.CardOver{
+    padding-bottom: 50px;
+}
+
+.cardOverView:hover{
+    background-color: #dddeea;
+}
+
+.dark .cardOverView:hover{
+    background-color: #343a53;
+}
+
 
 
 /* ------------------------ Card Components ------------------------*/
@@ -43,6 +63,10 @@
     font-size: 20px;
 }
 
+.dark .followers{
+    color:white
+}
+
 .pagename{
     font-size: 20px;
     font-family: inter;
@@ -50,6 +74,7 @@
 }
 
 img{
+    padding-bottom: 5px;
     max-width: 100%;  
     height: auto;  
 }
