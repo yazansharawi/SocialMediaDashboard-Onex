@@ -12,7 +12,7 @@
           </div>
           <div class = "FollowersPlusGrowth">
             <div>
-              <p class = "followers">{{Followers}}</p>
+              <p class = "followers" >{{Followers}} </p>
             </div>
             <div>
               <p  style="color:hsl(163, 72%, 41%)" class = "growth">^{{Growth}}%</p>

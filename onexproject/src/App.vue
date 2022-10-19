@@ -8,7 +8,7 @@
         <div class="row">
           <div class="col-sm-3">
             <Maincards
-              :Color= "'green'"
+              :Color= "'Facebook'"
               :AllTimeFollwer="'1987'"
               :NumberOfFollwersPerDay="12"
               :Following="'Followers'"
@@ -17,7 +17,7 @@
           </div>
           <div class="col-sm-3">
             <Maincards
-            :Color= "'green'"
+            :Color= "'Instagram'"
               :AllTimeFollwer="'1044'"
               :NumberOfFollwersPerDay="99"
               :Following="'Followers'"
@@ -27,7 +27,7 @@
           <div class="col-sm-3">
             <Maincards
             :Type="Foo"
-            :Color= "'green'"
+            :Color= "'Twitter'"
               :AllTimeFollwer="'11K'"
               :NumberOfFollwersPerDay="1099"
               :Following="'Followers'"
@@ -37,7 +37,7 @@
           <div class="col-sm-3">
             <Maincards
               :Type="Foo"
-              :Color= "'green'"
+              :Color= "'Youtube'"
               :AllTimeFollwer="'8239'"
               :NumberOfFollwersPerDay="144"
               :Following="'Subscriber'"
