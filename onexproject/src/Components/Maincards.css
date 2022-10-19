@@ -63,7 +63,7 @@
 }
 
 .card1.Instagram::after{
-    background-color: #bc2a8d !important;
+    background:linear-gradient( 90deg,hsl(37, 97%, 70%) , hsl(329, 70%, 58%));
 }
 
 

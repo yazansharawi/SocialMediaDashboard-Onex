@@ -3,7 +3,8 @@
     padding-top: 0px;
     margin: 0px;
     box-sizing: border-box;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
+
 }
 
 .TotalFollwers{
@@ -14,14 +15,15 @@
 
 /*------------------ Dark Mode code ------------------*/
 .app{
+  padding-bottom: 50px;
     width:100vw;
     min-height:100vh;
-    background: linear-gradient(to bottom, #F8F9FE 0%, #F8F9FE 50%, white 80%, white 100%);
+    background: white;
     color:black;
   }
   
   .dark{
-    background:black;;
+    background:#1E2028;
     color:white;
   }
 

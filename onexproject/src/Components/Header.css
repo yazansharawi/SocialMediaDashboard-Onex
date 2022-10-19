@@ -8,10 +8,19 @@
 header{
   background: #F8F9FE;
   padding-top: 20px;
+  padding-bottom: 200px;
+  margin-bottom: -200px;
+}
+
+.h3MainHead{
+  text-align: left;
+  font-weight: bold;
+  
 }
 
 #but{
-  padding-top: 30px;
+  padding-left: 25px;
+  padding-top: 20px;
   display: flex;
 }
 .ModeName{

@@ -18,8 +18,7 @@
               <p :style = "coolr" class = "growth"><img :src="require(`../assets/icon-${Val}.svg`)" alt="">{{Growth}}%</p>
             </div>
           </div>
-          
-
+        
     </div>
   </div>
 </div>

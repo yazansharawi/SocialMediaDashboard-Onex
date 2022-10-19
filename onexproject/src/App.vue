@@ -21,23 +21,24 @@
             <Maincards
               :coolrr = "'color:hsl(163, 72%, 41%)'"
               :v="'up'"
-              :Color= "'Instagram'"
+              :Color= "'Twitter'"
               :AllTimeFollwer="'1044'"
               :NumberOfFollwersPerDay="99"
               :Following="'Followers'"
               :Srcc= "'icon-twitter'"
             ></Maincards>
           </div>
-          <div class="col-sm-3">
-            <Maincards
-              :coolrr = "'color:hsl(163, 72%, 41%)'"
-              :v="'up'"
-              :Color= "'Twitter'"
-              :AllTimeFollwer="'11K'"
-              :NumberOfFollwersPerDay="1099"
-              :Following="'Followers'"
-              :Srcc= "'icon-instagram'"
-            ></Maincards>
+            <div class="col-sm-3">
+              <Maincards
+                :coolrr = "'color:hsl(163, 72%, 41%)'"
+                :v="'up'"
+                :Color= "'Instagram'"
+                :AllTimeFollwer="'11K'"
+                :NumberOfFollwersPerDay="1099"
+                :Following="'Followers'"
+                :Srcc= "'icon-instagram'"
+              ></Maincards>
+            
           </div>
           <div class="col-sm-3">
             <Maincards

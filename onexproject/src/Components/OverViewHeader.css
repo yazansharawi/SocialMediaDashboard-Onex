@@ -1,7 +1,14 @@
-h3{
+.h3Head{
     text-align: left;
     font-weight: bold;
+    color:#676A7B;
 }
+
+.dark .h3Head{
+    color: white;
+}
+
+
 
 
 
