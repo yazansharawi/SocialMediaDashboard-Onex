@@ -9,9 +9,18 @@ header{
   background: #F3F4FC;
   padding-top: 20px;
 }
+#but{
+  padding-top: 30px;
+  display: flex;
+}
+.ModeName{
+  padding-right: 20px;
+}
 /* ------------------------ Head Page ------------------------*/
 .HeadPage{
   padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
 
 }
 .HeadPage h3{

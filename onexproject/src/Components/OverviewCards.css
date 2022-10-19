@@ -43,6 +43,17 @@
     font-size: 20px;
 }
 
+.pagename{
+    font-size: 20px;
+    font-family: inter;
+    color:#8188ac;
+}
+
+img{
+    max-width: 100%;  
+    height: auto;  
+}
+
 
 /* ------------------------ animation  ------------------------*/
 

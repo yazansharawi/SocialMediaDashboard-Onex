@@ -2,12 +2,12 @@
   <div class="CardsMargin">
     <div class="container">
       <div class="row">
-        <div class="card1" data-color="blue" v-bind:class=Color >
+        <div class="card1" v-bind:class=Color >
           <div class="col-sm-12">
             <div class="Name">
               <div class="UserName" >
-                <div> <i :class = "val"></i></div>
-                <div><a href="https://www.instagram.com/yazan_sharawi_/">Yazan Sharawi</a></div>
+                <div> <img :src="require(`../assets/${Srcc}.svg`)" alt=""></div>
+                <div class = "NamePlusLogo">@nathanf</div>
               </div>
             </div>
 
@@ -17,7 +17,8 @@
             </div>
             
             <div class="FollwersPerDay">
-              <p class = "GrowthMain" style="color:hsl(163, 72%, 41%)" > ^{{ NumberOfFollwersPerDay }} Today</p>
+              <p class = "GrowthMain" :style = "coolrr" > <img :src="require(`../assets/icon-${V}.svg`)" alt="">{{ NumberOfFollwersPerDay }} Today</p>
+
             </div>
           </div>
         </div>
@@ -40,6 +41,9 @@ export default {
     Following:String,
     NumberOfFollwersPerDay:String,
     val:String,
+    coolrr:String,
+    V:String,
+    Srcc:String,
   },
 };
 </script>

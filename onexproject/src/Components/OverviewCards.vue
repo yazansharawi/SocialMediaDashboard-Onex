@@ -7,7 +7,7 @@
               <p class = "pagename" >{{Name}}</p>
             </div>
             <div>
-              <i :class = "Val"></i>
+              <img :src="require(`../assets/${Src}.svg`)" alt="">
             </div>
           </div>
           <div class = "FollowersPlusGrowth">
@@ -15,7 +15,7 @@
               <p class = "followers" >{{Followers}} </p>
             </div>
             <div>
-              <p  style="color:hsl(163, 72%, 41%)" class = "growth">^{{Growth}}%</p>
+              <p :style = "coolr" class = "growth"><img :src="require(`../assets/icon-${Val}.svg`)" alt="">{{Growth}}%</p>
             </div>
           </div>
           
@@ -33,6 +33,8 @@ export default {
     Followers:String,
     Growth:String,
     Val:String,
+    Src:String,
+    coolr:String,
   },
 };
 </script>

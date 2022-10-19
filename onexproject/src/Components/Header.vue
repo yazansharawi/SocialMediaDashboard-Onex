@@ -10,16 +10,17 @@
 
           <div class="col-sm-4"></div>
 
-          <div class="col-sm-4">
-            <h5>{{ mode }} Mode</h5>
-            <label class="switch">
+          <div class="col-sm-4" id = "but">
+            <div class = "ModeName"> <h5>{{ mode }} Mode</h5></div>
+            <div>
+              <label class="switch">
               <input
                 type="checkbox"
                 :checked="mode == 'dark' ? 'checked' : false"
                 @change="$emit('toggle')"
               />
               <span class="toggle round"></span>
-            </label>
+            </label></div>
           </div>
         </div>
       </div>
