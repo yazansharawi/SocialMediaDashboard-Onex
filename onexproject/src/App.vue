@@ -11,36 +11,36 @@
               :Color= "'green'"
               :AllTimeFollwer="'1987'"
               :NumberOfFollwersPerDay="12"
-              :fathi="'Followers'"
+              :Following="'Followers'"
               :val="'fa-brands fa-square-facebook fa-2xl'"
             ></Maincards>
           </div>
           <div class="col-sm-3">
             <Maincards
-              :Color=yazan
+            :Color= "'green'"
               :AllTimeFollwer="'1044'"
               :NumberOfFollwersPerDay="99"
-              :fathi="'Followers'"
+              :Following="'Followers'"
               :val="'fa-brands fa-square-instagram fa-2xl'"
             ></Maincards>
           </div>
           <div class="col-sm-3">
             <Maincards
             :Type="Foo"
-              :Color="yazan"
+            :Color= "'green'"
               :AllTimeFollwer="'11K'"
               :NumberOfFollwersPerDay="1099"
-              :fathi="'Followers'"
+              :Following="'Followers'"
               :val="'fa-brands fa-square-twitter fa-2xl'"
             ></Maincards>
           </div>
           <div class="col-sm-3">
             <Maincards
               :Type="Foo"
-              :Color="yazan"
+              :Color= "'green'"
               :AllTimeFollwer="'8239'"
               :NumberOfFollwersPerDay="144"
-              :fathi="'Subscriber'"
+              :Following="'Subscriber'"
               :val="'fa-brands fa-square-youtube fa-2xl'"
             ></Maincards>
           </div>

@@ -2,7 +2,7 @@
   <div class="CardsMargin">
     <div class="container">
       <div class="row">
-        <div class="card1">
+        <div class="card1" >
           <div class="col-sm-12">
             <div class="Name">
               <div class="UserName">
@@ -13,11 +13,11 @@
 
             <div class="AllTimeFollwers">
               <p class="NumOfFollwers">{{ AllTimeFollwer }}</p>
-              <p class = "FollowersMain">{{ fathi }}</p>
+              <p class = "FollowersMain">{{ Following }}</p>
             </div>
             
             <div class="FollwersPerDay">
-              <p class = "GrowthMain" style="color:hsl(163, 72%, 41%)">^ {{ NumberOfFollwersPerDay }} Today</p>
+              <p class = "GrowthMain" style="color:hsl(163, 72%, 41%)">^{{ NumberOfFollwersPerDay }} Today</p>
             </div>
           </div>
         </div>
@@ -26,6 +26,10 @@
   </div>
 </template>
 
+<script setup>
+const colorFromScriptSetup = "'Color'"
+</script>
+
 <script>
 
 export default {
@@ -33,7 +37,7 @@ export default {
   props: {
     Color:String,
     AllTimeFollwer:String,
-    fathi:String,
+    Following:String,
     NumberOfFollwersPerDay:String,
     val:String,
   },
