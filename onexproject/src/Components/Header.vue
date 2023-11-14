@@ -8,9 +8,9 @@
             <h5 class="TotalFollwers">Totol Follwers : 23,004</h5>
           </div>
 
-          <div class="col-sm-6"></div>
+          <div class="col-sm-5"></div>
 
-          <div class="col-sm-2" id = "but">
+          <div class="col-sm-3" id = "but">
             <div class = "ModeName"> <h5>{{ mode }} Mode</h5></div>
             <div>
               <label class="switch">
